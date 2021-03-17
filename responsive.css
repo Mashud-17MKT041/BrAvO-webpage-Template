@@ -1,0 +1,140 @@
+@media all and (max-width: 1080px) {
+	.singleteam {
+		width: 48%;
+		margin: 0 1%;
+		margin-bottom: 50px;
+		
+	}
+	
+	
+	
+	.single-skill {
+		width: 48%;
+		margin: 0 1%;
+		margin-bottom: 50px;
+	}
+	
+	input.first {
+		margin-right: 0;
+	}
+	
+	.cwrapper ul li a {
+		padding: 20px 10px;
+	}
+}
+
+@media all and (max-width: 850px) {
+	
+	.single-category {
+		width: 48%;
+		margin: 0 1%;
+		margin-bottom: 50px;
+	}
+	
+	.single-category:first-child {
+		margin-bottom: 20px;
+	}
+	
+	.toggle-button {
+		display: flex;
+	}
+	
+	.navbar-links {
+		display: none;
+		width: 100%;
+	}
+	
+	.hwrapper {
+		flex-direction: column;
+		align-items: flex-start;
+		
+	}
+	
+	.navbar-links ul {
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	.navbar-links ul li {
+		text-align: center;
+	}
+	
+	.navbar-links ul li a {
+		padding: .5rem;
+	}
+	
+	.navbar-links.active {
+		display: flex;
+		
+	}
+	
+	header#header-area {
+		position: static;
+		background: #22A6B3;
+	}
+	
+	
+	
+}
+
+@media all and (max-width: 690px) {
+	
+	
+	.singleteam {
+		width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 50px;
+	}
+	
+	.single-skill {
+		width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 50px;
+	}
+	
+	.single-category {
+		width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 50px;
+	}
+	
+	.single-portfolio {
+		width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 50px;
+	}
+	
+	.single-about {
+		width: 95%;
+		margin: 0 2.5%;
+		margin-bottom: 50px;
+	}
+	
+	
+}
+
+@media all and (max-width: 490px) {
+
+	
+	.option ul li a {
+		padding: 5px 10px;
+		font-size: 14px;
+	}
+	
+	.btn a {
+		padding: 15px 30px;
+		font-size: 16px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

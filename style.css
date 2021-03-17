@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1090px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* start header area */
+
+header#header-area {
+    background: #87509c;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.hwrapper {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.logo-area {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links ul li {
+    list-style: none;
+	transition: .2s;
+}
+
+.navbar-links ul li:hover {
+	background: gray;
+}
+
+.navbar-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+	display: block;
+}
+
+.navbar-links ul li:hover a {
+	color: #48DBFB;
+}
+
+
+.toggle-button {
+    position: absolute;
+    display: none;
+    top: 6px;
+    right: 60px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33px;
+    height: 29px;
+    border: 2px solid #485460;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.bar {
+    background: #485460;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+}
+
+/* end header area */
+
+/* start first slider */
+
+#first-slider {
+    background: #87509c;
+}
+
+.swrapper {
+    overflow: hidden;
+    text-align: center;
+	padding: 65px 0;
+}
+
+.swrapper h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.swrapper a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 18px 50px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    overflow: hidden;
+	margin-top: 50px;
+	display: inline-block;
+	background: #eb7d4b;
+	font-weight: bold;
+}
+
+/* end first slider */
+
+/* start service area */
+
+section#service-area {
+    background: #17c2a4;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.for-all-services h3 {
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+	position: relative;
+	padding-bottom: 15px;
+}
+
+.for-all-services h3:after {
+    content: '';
+    position: absolute;
+    width: 75px;
+    border-bottom: 3px solid #14a58c;
+    bottom: 0;
+    left: 46%;
+}
+
+.for-all-services {
+	margin-bottom: 70px;
+}
+
+.for-all-services p {
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 25px;
+    
+}
+
+.service-category-wrapper {
+    overflow: hidden;
+}
+
+.single-category {
+    width: 23.50%;
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+}
+
+.single-category:last-child {
+	margin-right:0;
+}
+
+.single-category img {
+	margin-bottom: 50px;
+}
+
+
+.single-category h4 {
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.single-category p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    line-height: 30px;
+}
+
+/* end service area */
+
+/* start meet our team area */
+
+section#team-area {
+    background: #e7f1f8;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.team-info h3 {
+	color: #3c4761;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+	position: relative;
+	padding-bottom: 15px;
+}
+
+.team-info h3:after {
+    content: '';
+    position: absolute;
+    width: 75px;
+    border-bottom: 3px solid #c8d9e5;
+    bottom: 0;
+    left: 46%;
+}
+
+.team-info {
+	margin-bottom: 70px;
+}
+
+.team-info p {
+    color: #3c4761;
+    font-weight: 600;
+    line-height: 25px;
+	font-size: 15px;
+    
+}
+	/* end all service area coppied from before section */
+.teamwrapper {
+    overflow: hidden;
+}
+
+.singleteam {
+    width: 23.50%;
+    float: left;
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+.singleteam:last-child {
+	margin-right: 0;
+}
+
+.singleteam img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.singleteam h5 {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 5px;
+	color: #3c4761;
+}
+
+.singleteam span {
+    color: #30bae7;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.singleteam p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+	color: #3c4761;
+}
+
+
+
+.ticons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+	
+	
+}
+
+.ticons ul li {
+    margin-right: 10px;
+	display: inline;
+    
+}
+
+.ticons ul li a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.ticons ul li a i {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    background: #bdd1df;
+    color: #ffffff;
+    border-radius: 50%;
+  
+}
+
+/* end meet our team area */
+
+/* start skill test area */
+
+section#skill-area {
+    text-align: center;
+    padding: 80px 0;
+}
+
+	/* skill info coppied from before section of team info  */
+
+.skillwrapper {
+    overflow: hidden;
+}
+
+.single-skill {
+    width: 23.50%;
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+	
+}
+
+.single-skill img {
+	margin-bottom: 25px;
+}
+
+.single-skill:last-child {
+	margin-right: 0;
+}
+
+.single-skill h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    color: #3c4761;
+}
+
+/* end skill test area */
+
+/* start portfolio area */
+
+#portfolio-area {
+	background: #ffdd99;
+	text-align: center;
+    padding: 80px 0;
+}
+
+.portf h3:after {
+    border-bottom: 3px solid #e5c37f;
+}
+
+
+
+.option ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+	
+}
+
+.option ul li {
+    display: inline;
+	margin-right: 5px;
+}
+
+.option ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3c4761;
+    font-weight: 600;
+    padding: 7px 22px;
+    background: #ebc985;
+    border-radius: 4px;
+}
+
+.option ul li:first-child a {
+	background: #ffffff;
+}
+
+.portfwrapper {
+    overflow: hidden;
+}
+
+.single-portfolio {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+	margin-bottom: 50px;
+}
+
+.single-portfolio img {
+	width: 100%;
+}
+
+.single-portfolio:nth-child(2n) {
+	margin-right: 0;
+}
+
+.single-portfolio p {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 700;
+	color: #44423e;
+}
+
+.btn {
+	margin: 50px 0;
+}
+
+.btn a {
+    background: #17c2a4;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 20px 45px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 4px;
+	border-bottom: 5px solid #14a58c;
+}
+
+/* end portfolio area */
+
+/* start about us area */
+
+#about-area {
+	background: #d74680;
+	text-align: center;
+    padding: 80px 0;
+
+}
+
+.color h3,
+.color p {
+	color: #ffffff;
+}
+
+.color h3:after {
+    border-bottom: 3px solid #b73c6d;
+}
+
+	/* about area team info coppied from previous section and just add a class name "color" */
+
+.aboutwrapper {
+    overflow: hidden;
+    color: #ffffff;
+    text-align: justify;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.single-about {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+
+.single-about:nth-child(2n) {
+	margin-right: 0;
+}
+
+.single-about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    margin-right: 45px;
+}
+
+.abdetail {
+    overflow: hidden;
+}
+
+.abdetail p {
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 20px;
+}
+
+.abdetail h5 {
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-bottom: 3px;
+}
+
+.abdetail span {
+    color: #ffdd99;
+    font-weight: bold;
+}
+
+/* end about us area */
+
+/* start footer area */
+
+#footer-area {
+	background: #3c5499;
+	text-align: center;
+    padding: 80px 0 0;
+}
+
+.foot h3,
+.foot p {
+	color: #ffffff;
+}
+
+.foot h3:after {
+    border-bottom: 3px solid #273a71;
+}
+
+	/* team info coppied from previous section */
+
+	/* start copyright area */
+.copyright-area {
+    background: #344b8e;
+    border-top: 1px dashed #5d6ca3;
+}
+
+.cwrapper {
+    overflow: hidden;
+}
+
+.cwrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.cwrapper ul li {
+	display: inline;
+}
+
+.cwrapper ul li a {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 40px 20px;
+}
+
+.cwrapper ul li.twit a {
+	color: #30bae7;
+}
+	/* end copyright area */
+	
+.inputwrapper {
+    overflow: hidden;
+}
+
+input[type="text"] {
+    background: #273a71;
+    outline: 0;
+    border: none;
+    color: #ffffff;
+    padding: 15px 215px 15px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+input.first {
+    margin-right: 20px;
+}
+
+input.msg {
+    display: block;
+    width: 53%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px 205px 150px 20px;
+}
+
+input[type="submit"] {
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 18px 65px;
+    font-size: 16px;
+    border-radius: 4px;
+    background: #30bae7;
+    border: none;
+    cursor: pointer;
+    border-bottom: 5px solid #299ec5;
+}
+
+/* end footer area */
+
